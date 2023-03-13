@@ -85,7 +85,7 @@ function onSubmit() {
       id: form.id,
       title: form.title,
       endDate: form.endDate,
-      state: true,
+      state: false,
       tags: form.tags
     });
   }
