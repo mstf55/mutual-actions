@@ -7,4 +7,4 @@ notes to myself
 -- add local storage
 -- add detail page
 -- add filtering on table
--- change search functionaliy
+-- change search functionality
