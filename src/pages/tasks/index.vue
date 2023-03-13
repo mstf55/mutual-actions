@@ -8,7 +8,6 @@
         </template>
       </q-input>
       <div class="q-pa-sm q-gutter-sm">
-
       </div>
     </template>
 
@@ -67,7 +66,6 @@
 </template>
 
 <script lang="ts">
-
 
 import { ref, PropType, defineComponent, reactive, toRefs } from 'vue';
 import { usetaskListStore } from 'src/stores/task';
