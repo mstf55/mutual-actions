@@ -76,7 +76,7 @@ function onSubmit() {
       id: uuidv4(),
       endDate: form.endDate,
       description: "",
-      state: true,
+      state: false,
       tags: form.tags
     });
   }
