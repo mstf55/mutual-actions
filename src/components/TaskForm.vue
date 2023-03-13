@@ -81,7 +81,7 @@ function onSubmit() {
     });
   }
   else {
-    store.updateItem({
+    store.updateTask({
       id: form.id,
       title: form.title,
       endDate: form.endDate,
