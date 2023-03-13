@@ -8,10 +8,10 @@ export const usetaskListStore = defineStore("tasks", {
     taskList: [] as Task[],
   }),
   actions: {
-    addtask(item: Task) {
+    addtask(task: Task) {
 
-      if (!item) return;
-      this.taskList.push(item);
+      if (!task) return;
+      this.taskList.push(task);
 
     },
     deleteTask(id: string) {
@@ -21,13 +21,13 @@ export const usetaskListStore = defineStore("tasks", {
   
         this.taskList.splice(index, 1);
       },
-    updateItem(payload: Task) {
-        if (!payload || !payload.id) return;
+    updateTask(task: Task) {
+        if (!task || !task.id) return;
   
-        const index = this.findIndexById(payload.id);
+        const index = this.findIndexById(task.id);
   
         if (index !== -1) {
-          this.taskList[index] = payload;
+          this.taskList[index] = task;
         }
       },
     changeTaskStatus(id: string) {

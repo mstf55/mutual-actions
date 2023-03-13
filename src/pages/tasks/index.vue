@@ -77,11 +77,8 @@ import { useRouter } from 'vue-router'
 import TaskForm from 'src/components/TaskForm.vue';
 import { useQuasar } from 'quasar';
 export default defineComponent({
-  name: 'UserListTable',
+  name: 'TaskTable',
   props: {
-    users: {
-      default: () => ([]),
-    },
   },
   setup() {
 
